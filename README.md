@@ -41,6 +41,7 @@
 - [ACP for Sublime Text](https://packages.sublimetext.io/packages/ACP) - Sublime Text 4 plugin for running ACP agents such as Claude Code, OpenCode, and Copilot, with persistent sessions and model, mode, and thought-level switching.
 - [Xcode](https://developer.apple.com/documentation/xcode/setting-up-coding-intelligence) - Apple's coding intelligence setup guide, where any agent that supports ACP can be added to Xcode with Add an Agent in Intelligence settings.
 - [devin-tui](https://github.com/fenner888/devin-tui) - Unofficial full-screen terminal UI for Devin driven by `devin acp`, with inline diffs, plans, per-session spend, and a flag to spawn any other ACP agent.
+- [Eclipse ACP Connector](https://marketplace.eclipse.org/content/eclipse-acp-connector) - Beta Apache-2.0 plugin for Eclipse IDE that opens a project chat and runs a configurable local ACP agent over stdio, with session history, permission dialogs, and mode, model, and reasoning-level selectors.
 
 ## Agent Implementations
 
@@ -50,6 +51,7 @@
 - [Goose](https://goose-docs.ai/docs/guides/cli-providers/) - Open-source AI agent that ships native claude-acp and codex-acp providers.
 - [ACP Agents Directory](https://agentclientprotocol.com/get-started/agents) - Official listing of agents implementing ACP, including Gemini CLI, Cline, and OpenHands.
 - [Devin CLI ACP Support](https://docs.devin.ai/cli/acp/zed) - Cognition guide to running Devin CLI as an ACP agent in Zed's Agent Panel, installed from the ACP registry, with companion pages for JetBrains IDEs and Xcode.
+- [Poolside ACP Support](https://docs.poolside.ai/tools/zed) - Guide to running Poolside in Zed through ACP, installed from the ACP Registry, set up with `pool acp setup --editor zed`, or configured manually as a custom agent.
 
 ## Documentation
 
@@ -58,6 +60,7 @@
 - [TypeScript SDK Docs](https://agentclientprotocol.github.io/typescript-sdk/) - API reference and usage guide for the TypeScript SDK.
 - [Rust SDK v2 Quickstart](https://agentclientprotocol.github.io/rust-sdk/protocol-v2-quickstart.html) - Runnable ACP v2 agent and client examples behind the `unstable_protocol_v2` feature flag.
 - [ACP v2 Migration Guide](https://agentclientprotocol.com/protocol/v2/migration) - Breaking changes, new features, and agent, client, and SDK checklists for moving from v1 to the draft v2 protocol while keeping v1 support side by side.
+- [Zed External Agents](https://zed.dev/docs/ai/external-agents) - Zed's guide to installing ACP agents from the registry, adding custom agents, importing their threads, forwarding MCP servers, and reading ACP logs with `dev: open acp logs`.
 
 ## Articles and Guides
 
