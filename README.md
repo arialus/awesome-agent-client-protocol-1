@@ -42,6 +42,7 @@
 - [Xcode](https://developer.apple.com/documentation/xcode/setting-up-coding-intelligence) - Apple's coding intelligence setup guide, where any agent that supports ACP can be added to Xcode with Add an Agent in Intelligence settings.
 - [devin-tui](https://github.com/fenner888/devin-tui) - Unofficial full-screen terminal UI for Devin driven by `devin acp`, with inline diffs, plans, per-session spend, and a flag to spawn any other ACP agent.
 - [Eclipse ACP Connector](https://marketplace.eclipse.org/content/eclipse-acp-connector) - Beta Apache-2.0 plugin for Eclipse IDE that opens a project chat and runs a configurable local ACP agent over stdio, with session history, permission dialogs, and mode, model, and reasoning-level selectors.
+- [acpx](https://github.com/openclaw/acpx) - MIT headless CLI client for stateful ACP sessions, for scripting and testing ACP agents from the terminal.
 
 ## Agent Implementations
 
